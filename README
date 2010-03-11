@@ -1,0 +1,7 @@
+INSTALL:
+
+You must have the mongodb-driver library on the path for your app.
+
+USAGE:
+
+Running MongoUtils.decorateCollectionClass() will decorate collections with the generic versions that allow passing a map for find, insert, etc. MongoUtils.decorateCollection(collectionName) will decorate a specific class instance with the dynamic finder handlers. 
